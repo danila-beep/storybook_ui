@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+import {createGlobalStyle} from "styled-components";
 
-* {
-    font-family: "Poppins", sans-serif;
-}
-
-:root {
+const GlobalStyle = createGlobalStyle`
+  :root {
     --blue09: #175C99;
     --blue08: #1B6CB3;
     --blue07: #1E7BCC;
@@ -75,5 +72,7 @@
     --grey02: #E9ECEF;
     --grey01: #F1F3F5;
     --grey00: #F8F9FA;
-}
+  }
+`
 
+export default GlobalStyle
