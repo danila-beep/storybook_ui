@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import SocialButtons from "./components/Buttons/SocialButtons";
-import {UilApple, UilGithub, UilGooglePlay} from "@iconscout/react-unicons";
-import Rating from "./components/Buttons/Rating";
+import Radio from "./components/Selectors/Radio";
 import Toggler from "./components/Selectors/Toggler";
 
 function App() {
     return (
         <div className={"App"}>
-            <Toggler />
+            <Radio title={"Title"} description={"Description"} disabled checked/>
         </div>
     );
 }
